@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/minty/bootstrap.min.css" integrity="sha384-H4X+4tKc7b8s4GoMrylmy2ssQYpDHoqzPa9aKXbDwPoPUA3Ra8PA5dGzijN+ePnH" crossorigin="anonymous">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>votes</title>
+</head>
+<body class="container">
+<form action= "cookie.php" method="post" >
+  <fieldset class="form-group">
+    <legend class="mt-4">Evaluer ce contenu </legend>
+  <div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input"name="degree" value="bon"id="optionsRadios2" >
+bon
+  </label>
+  </div>
+  <div class="form-check disabled">
+    <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="degree" value="moyen" id="optionsRadios3" >
+      moyen
+    </label>
+  </div>
+  <div class="form-check disabled">
+    <label class="form-check-label">
+      <input type="radio" class="form-check-input"name="degree" value="mauvais" value="moyen" id="optionsRadios4">
+      mauvais
+    </label>
+  </div>
+
+  <br><br><br>
+  </fieldset>
+  <button type="submit" class="btn btn-primary">valider</button>
+  <button type="reset" class="btn btn-primary">Annuler</button>
+  </fieldset>
+
+
+</form>
+
+</body>
+</html>
